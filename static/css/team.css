@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+#team-heading {
+  margin: 100px auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-family: "Raleway", sans-serif;
+  color: #212f3d;;
+  font-size: 48px;
+}
+body{
+    background-color: #ebf0fd;
+}
+#team-display {
+  margin: -50px auto;
+  width: 80%;
+  background-color: #ebf0fd;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+#team-display .team-card {
+  border-radius: 5px;
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+#team-display .team-card .popup-div {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  top: 275px;
+  background-color: rgba(0, 0, 0, 0.582);
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#team-display .team-card .popup-div .name {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#team-display .team-card .popup-div .name p:first-child {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  /* color: #212f3d; */
+  color:#fff;
+  position: relative;
+}
+
+#team-display .team-card .popup-div .name p:first-child::after {
+  content: '';
+  width: 120%;
+  height: 1px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: white;
+  left: -10%;
+  position: absolute;
+  bottom: -5px;
+}
+.team-text{
+    transform: translateY(10px);
+}
+#team-display .team-card .popup-div .name p:last-child {
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+#team-display .team-card .popup-div .team-text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+#team-display .team-card .popup-div .team-text p {
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  color: #212f3d;
+  color:#fff;
+}
+
+#team-display .team-card .popup-div .team-text #social-media {
+  cursor: pointer;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+#team-display .team-card .popup-div .team-text #social-media svg {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+
+#team-display .team-card .popup-div .team-text #social-media #facebook:hover svg {
+  color: #3b5998;
+}
+
+#team-display .team-card .popup-div .team-text #social-media #instagram:hover svg {
+  color: #8a3ab9;
+}
+
+#team-display .team-card .popup-div .team-text #social-media #twitter:hover svg {
+  color: #1DA1F2;
+}
+
+#team-display .team-card .popup-div .team-text #social-media #linkedin:hover svg {
+  color: #0077b5;
+}
+
+#team-display .team-card::before {
+  content: "";
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://unsplash.it/400/400") no-repeat;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+#team-display .team-card:hover::before {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+#team-display .team-card:hover .popup-div {
+  -webkit-transform: translateY(-140px);
+          transform: translateY(-140px);
+}
+
+#team-display .team-card:hover .popup-div .name p:first-child::after {
+  width: 200%;
+  left: -50%;
+}
+
+footer {
+    background-color: #ebf0fd;
+    position: static;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  #team-heading {
+    font-size: 28px;
+  }
+  #team-display {
+    -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  #team-display .team-card {
+    width: 200px;
+    height: 200px;
+  }
+  #team-display .team-card .popup-div {
+    width: 100%;
+    height: 200px;
+    top: 100px;
+  }
+  #team-display .team-card .popup-div .name p:first-child {
+    font-size: 15px;
+  }
+  #team-display .team-card .popup-div .name p:last-child {
+    margin-top: 10px;
+    font-size: 7.5px;
+  }
+  #team-display .team-card .popup-div .team-text p {
+    font-size: 7.5px;
+  }
+  #team-display .team-card:hover .popup-div {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+/*# sourceMappingURL=style.css.map */

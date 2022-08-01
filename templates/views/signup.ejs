@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/signup.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <link rel="stylesheet" href="/css/navbar.css">
+    <title>Login</title>
+</head>
+<body>
+  <div class="mynavbar">
+    <div class="mynavbar-left">
+      <h1 style="margin-top: 30px"><a href="/" style="text-decoration: none;">DBCentre</a></h1>
+    </div>
+    <div class="mynavbar-right">
+      <ul>
+        <li><a href="/">Home</a></li>
+    </div>
+  </div>
+      <div class="login">
+        <div class="login_title">
+          <span><h1  style="font-size: 3rem;">SignUp To Your Account</h1></span>
+        </div>
+        <img style="margin:20px 0px -20px 0px;"src="/images/icon.svg" width="50px" height="50px" alt="">
+        <div class="login_fields">
+          <div class="login_fields__user form-input">
+            <div class="icon">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/user_icon_copy.png"/>
+            </div>
+            <input  id="email" placeholder="Email" type="text">
+              <div class="validation">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/tick.png"/>
+              </div>
+            </input>
+          </div>
+          <div class="login_fields__password form-input">
+            <div class="icon">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/lock_icon_copy.png"/>
+            </div>
+            <input  id="password" placeholder="Password" type="password"></input>
+            <div class="validation">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/tick.png"/>
+            </div>
+          </div>
+          <div class="signup_fields__password form-input">
+            <div class="icon">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/lock_icon_copy.png"/>
+            </div>
+            <input  id="age" placeholder="Age" type="number"></input>
+          </div>
+          <div class="login_fields__user form-input">
+            <div class="icon">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/user_icon_copy.png"/>
+            </div>
+            <input  id="yourname" placeholder="Your Name" type="text">
+              <div class="validation">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/tick.png"/>
+              </div>
+            </input>
+          </div>
+          <!-- <div class="col_half">
+            <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+              <input type="text" name="name" placeholder="Username" />
+            </div>
+          </div> -->
+          <div class="input_field radio_option">
+            <div class="gender-select">
+              <input type="radio" name="radiogroup1" id="rd1">
+              <label for="rd1"><h3 style="font-size: 1.5rem;">Male</h3></label>
+            </div>
+            <div class="gender-select">
+              <input type="radio" name="radiogroup1" id="rd2">
+              <label for="rd2"><h3 style="font-size: 1.5rem;">Female</h3></label>
+            </div>
+          </div>
+          <div class="login_fields__submit">
+            <!-- <input onclick="signup()" type="submit" value="SignUp"></input> -->
+            <svg onclick="signup()" class="app-sidebar-link" style="border:none;cursor:pointer"xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            <div class="forgot">
+              <a href="/login"><h1  onmouseover="this.style.color='red'" onmouseleave="this.style.color='black'">Already have an account? Log In</h1></a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="success">
+          <h2>Authentication Success</h2>
+          <p>Welcome back</p>
+        </div>
+        <div class="disclaimer">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper laoreet placerat. Nullam semper auctor justo, rutrum posuere odio vulputate nec.</p>
+        </div> -->
+      </div>
+      <div>
+        <br><br><br>
+      </div>
+      <%- include ('../partials/footer.ejs') %>
+</body>
+<script src="/javascript/signup.js"></script>
+</html>

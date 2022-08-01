@@ -1,0 +1,131 @@
+.mynavbar{
+	margin-bottom: 100px;
+}
+#email{
+	width: 100%;
+    background-color: #f3f6fd;
+    height: 80px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px 20px;
+	border:1px solid #212f3d;
+  }
+  #password{
+	width: 100%;
+    background-color: #f3f6fd;
+    height: 80px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px 20px;
+	border:1px solid #212f3d;
+  }
+  /* .login_fields{
+	  align-items: center;
+	  margin-left: 200px;
+  } */
+  .login{
+	  align-items: center;
+	  display: flex;
+	  width: 80%;
+	  height: 600px;
+	flex-direction: column;
+	margin: auto;
+  }
+  .login_fields_submit{
+	  display: flex;
+	  justify-content: space-evenly;
+		flex-direction: column;
+		align-items: center;
+	  /* margin-left: -490px; */
+  }
+  .login_fields_submit a
+  {
+	font-size: 1.2em;
+  }
+  .login_fields{
+	  height: 300px;
+	  margin: auto;
+	 
+  }
+  #login-text{
+	  font-size: 2em;
+  }
+  footer{
+	  background-color: #ebf0fd;
+	  bottom: 0px;
+	  left:0px;
+	  right: 0px;
+	  margin-top: 100px;
+  }
+  body{
+	  background-color: #ebf0fd;
+  }
+
+
+  /*loder*/
+.loader {
+  position: relative;
+  width: 2.5em;
+  height: 2.5em;
+  transform: rotate(165deg);
+}
+.loader:before, .loader:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 0.25em;
+  transform: translate(-50%, -50%);
+}
+.loader:before {
+  animation: before 2s infinite;
+}
+.loader:after {
+  animation: after 2s infinite;
+}
+@keyframes before {
+  0% {
+    width: 0.5em;
+    box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+ }
+  35% {
+    width: 2.5em;
+    box-shadow: 0 -0.5em rgba(225, 20, 98, 0.75), 0 0.5em rgba(111, 202, 220, 0.75);
+ }
+  70% {
+    width: 0.5em;
+    box-shadow: -1em -0.5em rgba(225, 20, 98, 0.75), 1em 0.5em rgba(111, 202, 220, 0.75);
+ }
+  100% {
+    box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+ }
+}
+@keyframes after {
+  0% {
+    height: 0.5em;
+    box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+ }
+  35% {
+    height: 2.5em;
+    box-shadow: 0.5em 0 rgba(61, 184, 143, 0.75), -0.5em 0 rgba(233, 169, 32, 0.75);
+ }
+  70% {
+    height: 0.5em;
+    box-shadow: 0.5em -1em rgba(61, 184, 143, 0.75), -0.5em 1em rgba(233, 169, 32, 0.75);
+ }
+  100% {
+    box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+ }
+}
+/** * Attempt to center the whole thing! */
+html, body {
+  height: 100%;
+}
+.loader {
+  position: absolute;
+  top: calc(64% - 1.25em);
+  left: calc(50% - 1.25em);
+}

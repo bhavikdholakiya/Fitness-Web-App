@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DashBoard</title>
+  <link rel="stylesheet" href="/css/dashboard.css">
+  <link rel="stylesheet" href="/css/profile.css">
+</head>
+
+<body>
+  <div class="app-container">
+    <div class="app-header">
+      <div class="app-header-left">
+        <span class="app-icon"></span>
+        <p class="app-name">Portfolio</p>
+        <div class="search-wrapper">
+          <input class="search-input" type="text" placeholder="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-search"
+            viewBox="0 0 24 24">
+            <defs></defs>
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="M21 21l-4.35-4.35"></path>
+          </svg>
+        </div>
+      </div>
+      <div class="app-header-right">
+        <button class="mode-switch" title="Switch Theme">
+          <svg class="moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="2" width="24" height="24" viewBox="0 0 24 24">
+            <defs></defs>
+            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+          </svg>
+        </button>
+        <button class="add-btn" title="Add New Project">
+          <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-plus">
+            <line x1="12" y1="5" x2="12" y2="19" />
+            <line x1="5" y1="12" x2="19" y2="12" />
+          </svg>
+        </button>
+        <button class="notification-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-bell">
+            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+            <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+          </svg>
+        </button>
+        <button class="profile-btn">
+          <img src="https://assets.codepen.io/3306515/IMG_2025.jpg" />
+          <span>
+            <%= user.name %>
+          </span>
+        </button>
+      </div>
+      <button class="messages-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="feather feather-message-circle">
+          <path
+            d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+        </svg>
+      </button>
+    </div>
+    <div class="app-content">
+      <div class="app-sidebar">
+        <a href="/user/dashboard" class="app-sidebar-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-home">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            <polyline points="9 22 9 12 15 12 15 22" />
+          </svg>
+        </a>
+        <a href="/user/dashboard/form" class="app-sidebar-link">
+          <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="feather feather-pie-chart" viewBox="0 0 24 24">
+            <defs />
+            <path d="M21.21 15.89A10 10 0 118 2.83M22 12A10 10 0 0012 2v10z" />
+          </svg>
+        </a>
+        <a href="/user/dashboard/payment" class="app-sidebar-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-calendar">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+            <line x1="16" y1="2" x2="16" y2="6" />
+            <line x1="8" y1="2" x2="8" y2="6" />
+            <line x1="3" y1="10" x2="21" y2="10" />
+          </svg>
+        </a>
+        <a href="/user/dashboard/profile" class="app-sidebar-link  active">
+          <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="feather feather-settings" viewBox="0 0 24 24">
+            <defs />
+            <circle cx="12" cy="12" r="3" />
+            <path
+              d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z" />
+          </svg>
+        </a>
+        <a class="app-sidebar-link" onclick="logout()">
+          <svg style="fill:black" xmlns="http://www.w3.org/2000/svg" class="link-icon" width="24" height="24"
+            fill="none" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z" />
+            <path fill-rule="evenodd"
+              d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z" />
+          </svg>
+        </a>
+      </div>
+      <div class="projects-section">
+        <div class="projects-section-header" style="margin-bottom: 100px; margin-top: 50px;">
+          <p>Profile Setting</p>
+          <p class="time">December, 12</p>
+        </div>
+        <div class="project-boxes jsGridView">
+          <form>
+            <div class="profile-form-div">
+              <input type="email" name="email" id="email" value="" placeholder="<%= user.email %>" disabled>
+              <svg onclick='clicked1()' xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-pen-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z" />
+              </svg>
+            </div>
+            <div class="profile-form-div">
+              <input type="name" name="name" id="name" value="" placeholder="<%= user.name %>" disabled>
+              <svg onclick='clicked2()' xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-pen-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z" />
+              </svg>
+            </div>
+
+            <div class="profile-form-div">
+              <input type="password" name="password" id="password" value="" placeholder="<%= user.password %>" disabled>
+              <svg onclick='clicked3()' xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-pen-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z" />
+              </svg>
+            </div>
+            <div class="profile-form-div">
+              <input type="number" name="age" id="age" value="" placeholder="<%= user.age %>" disabled>
+              <svg  onclick='clicked4()' xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-pen-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z" />
+              </svg>
+            </div>
+            <div class="profile-form-div">
+              <input  type="name" name="name"  value="" placeholder="<%= user.plan %>" disabled>
+              <svg onclick='window.location.href="/user/dashboard/payment"' xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-pen-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z" />
+              </svg>
+            </div>
+            <svg onclick="submitProfile()" class="app-sidebar-link" style="border:none;cursor:pointer"xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+<script src="/javascript/profile.js"></script>
+<!-- <script src="/javascript/form.js"></script>
+<script src="/javascript/utils.js"></script> -->
+
+</html>

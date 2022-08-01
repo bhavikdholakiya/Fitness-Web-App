@@ -1,0 +1,1201 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/devpatel/Desktop/DB",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2021-11-13 09:38:05",
+            "filesum": 28,
+            "codesum": 6336,
+            "commentsum": 183,
+            "blanksum": 56,
+            "statistics": {
+                ".js": {
+                    "code": 553,
+                    "comment": 26,
+                    "blank": 39
+                },
+                ".css": {
+                    "code": 2274,
+                    "comment": 155,
+                    "blank": 1
+                },
+                ".json": {
+                    "code": 2070,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".ejs": {
+                    "code": 1437,
+                    "comment": 2,
+                    "blank": 16
+                },
+                "": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": ".env"
+                },
+                {
+                    "blank": 6,
+                    "code": 41,
+                    "comment": 4,
+                    "filename": "app.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 20,
+                    "comment": 3,
+                    "filename": "config/isAuth.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "config/isDocter.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "config/mongoose.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "models/activities.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "models/sets.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 60,
+                    "comment": 2,
+                    "filename": "models/users.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2039,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "routers/adminRouter.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 87,
+                    "comment": 4,
+                    "filename": "routers/userRouter.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 887,
+                    "comment": 110,
+                    "filename": "static/css/admin.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 773,
+                    "comment": 18,
+                    "filename": "static/css/dashboard.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "static/css/homepage.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 220,
+                    "comment": 27,
+                    "filename": "static/css/login.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 394,
+                    "comment": 0,
+                    "filename": "static/css/signup.css"
+                },
+                {
+                    "blank": 17,
+                    "code": 111,
+                    "comment": 7,
+                    "filename": "static/javascript/admin.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "static/javascript/dashboard.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 62,
+                    "comment": 5,
+                    "filename": "static/javascript/homepage.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "static/javascript/login.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 1,
+                    "filename": "static/javascript/signup.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 45,
+                    "comment": 1,
+                    "filename": "templates/partials/navbar.ejs"
+                },
+                {
+                    "blank": 9,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "templates/views/admin.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 538,
+                    "comment": 0,
+                    "filename": "templates/views/dashboard.ejs"
+                },
+                {
+                    "blank": 5,
+                    "code": 646,
+                    "comment": 1,
+                    "filename": "templates/views/homepage.ejs"
+                },
+                {
+                    "blank": 1,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "templates/views/login.ejs"
+                },
+                {
+                    "blank": 1,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "templates/views/signup.ejs"
+                }
+            ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2021-11-13 16:59:55",
+            "filesum": 34,
+            "codesum": 7066,
+            "commentsum": 220,
+            "blanksum": 111,
+            "statistics": {
+                ".js": {
+                    "code": 909,
+                    "comment": 62,
+                    "blank": 81
+                },
+                ".ejs": {
+                    "code": 1572,
+                    "comment": 2,
+                    "blank": 14
+                },
+                ".css": {
+                    "code": 2513,
+                    "comment": 156,
+                    "blank": 16
+                },
+                ".json": {
+                    "code": 2070,
+                    "comment": 0,
+                    "blank": 0
+                },
+                "": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": ".env"
+                },
+                {
+                    "blank": 6,
+                    "code": 44,
+                    "comment": 4,
+                    "filename": "app.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 20,
+                    "comment": 3,
+                    "filename": "config/isAuth.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "config/isDocter.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "config/mongoose.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "models/activities.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "models/sets.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 60,
+                    "comment": 2,
+                    "filename": "models/users.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2039,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 64,
+                    "comment": 3,
+                    "filename": "routers/adminRouter.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 121,
+                    "comment": 5,
+                    "filename": "routers/userRouter.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 897,
+                    "comment": 110,
+                    "filename": "static/css/admin.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 773,
+                    "comment": 18,
+                    "filename": "static/css/dashboard.css"
+                },
+                {
+                    "blank": 15,
+                    "code": 229,
+                    "comment": 1,
+                    "filename": "static/css/form.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "static/css/homepage.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 220,
+                    "comment": 27,
+                    "filename": "static/css/login.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 394,
+                    "comment": 0,
+                    "filename": "static/css/signup.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 159,
+                    "comment": 5,
+                    "filename": "static/javascript/admin.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "static/javascript/dashboard.js"
+                },
+                {
+                    "blank": 30,
+                    "code": 131,
+                    "comment": 29,
+                    "filename": "static/javascript/form.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 62,
+                    "comment": 5,
+                    "filename": "static/javascript/homepage.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "static/javascript/login.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 1,
+                    "filename": "static/javascript/signup.js"
+                },
+                {
+                    "blank": 27,
+                    "code": 116,
+                    "comment": 5,
+                    "filename": "static/javascript/test.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "static/javascript/utils.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 45,
+                    "comment": 1,
+                    "filename": "templates/partials/navbar.ejs"
+                },
+                {
+                    "blank": 7,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "templates/views/admin.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 538,
+                    "comment": 0,
+                    "filename": "templates/views/dashboard.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 127,
+                    "comment": 0,
+                    "filename": "templates/views/form.ejs"
+                },
+                {
+                    "blank": 5,
+                    "code": 646,
+                    "comment": 1,
+                    "filename": "templates/views/homepage.ejs"
+                },
+                {
+                    "blank": 1,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "templates/views/login.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "templates/views/profile.ejs"
+                },
+                {
+                    "blank": 1,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "templates/views/signup.ejs"
+                }
+            ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2021-11-14 23:10:44",
+            "filesum": 55,
+            "codesum": 8647,
+            "commentsum": 288,
+            "blanksum": 325,
+            "statistics": {
+                ".ejs": {
+                    "code": 2212,
+                    "comment": 10,
+                    "blank": 124
+                },
+                ".js": {
+                    "code": 1580,
+                    "comment": 80,
+                    "blank": 144
+                },
+                ".json": {
+                    "code": 2209,
+                    "comment": 0,
+                    "blank": 0
+                },
+                "": {
+                    "code": 6,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".css": {
+                    "code": 2639,
+                    "comment": 198,
+                    "blank": 57
+                },
+                ".svg": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": ".env"
+                },
+                {
+                    "blank": 5,
+                    "code": 77,
+                    "comment": 5,
+                    "filename": "app.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "config/filter.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 20,
+                    "comment": 3,
+                    "filename": "config/isAuth.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "config/isDocter.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "config/mongoose.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 2,
+                    "filename": "config/sendMail.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 2,
+                    "filename": "config/sendMailContact.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "models/activities.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "models/queries.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "models/setNames.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "models/sets.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 66,
+                    "comment": 2,
+                    "filename": "models/users.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2176,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 65,
+                    "comment": 4,
+                    "filename": "routers/adminRouter.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 255,
+                    "comment": 11,
+                    "filename": "routers/userRouter.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 949,
+                    "comment": 97,
+                    "filename": "static/css/admin.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 952,
+                    "comment": 30,
+                    "filename": "static/css/dashboard.css"
+                },
+                {
+                    "blank": 16,
+                    "code": 298,
+                    "comment": 10,
+                    "filename": "static/css/form.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "static/css/homepage.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 57,
+                    "comment": 5,
+                    "filename": "static/css/login.css"
+                },
+                {
+                    "blank": 12,
+                    "code": 58,
+                    "comment": 2,
+                    "filename": "static/css/navbar.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "static/css/pay.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 36,
+                    "comment": 2,
+                    "filename": "static/css/profile.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 64,
+                    "comment": 50,
+                    "filename": "static/css/signup.css"
+                },
+                {
+                    "blank": 19,
+                    "code": 206,
+                    "comment": 2,
+                    "filename": "static/css/team.css"
+                },
+                {
+                    "filename": "static/images/Bhavik.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static/images/Dev.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static/images/icon.svg"
+                },
+                {
+                    "blank": 33,
+                    "code": 284,
+                    "comment": 11,
+                    "filename": "static/javascript/admin.js"
+                },
+                {
+                    "blank": 22,
+                    "code": 223,
+                    "comment": 13,
+                    "filename": "static/javascript/dashboard.js"
+                },
+                {
+                    "blank": 32,
+                    "code": 143,
+                    "comment": 21,
+                    "filename": "static/javascript/form.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "static/javascript/homepage.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "static/javascript/login.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "static/javascript/pay.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "static/javascript/profile.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 1,
+                    "filename": "static/javascript/signup.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "static/javascript/team.js"
+                },
+                {
+                    "blank": 27,
+                    "code": 116,
+                    "comment": 5,
+                    "filename": "static/javascript/test.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "static/javascript/utils.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 69,
+                    "comment": 1,
+                    "filename": "templates/partials/footer.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "templates/partials/navbar.ejs"
+                },
+                {
+                    "blank": 9,
+                    "code": 90,
+                    "comment": 0,
+                    "filename": "templates/views/admin.ejs"
+                },
+                {
+                    "blank": 70,
+                    "code": 322,
+                    "comment": 6,
+                    "filename": "templates/views/contact.ejs"
+                },
+                {
+                    "blank": 1,
+                    "code": 168,
+                    "comment": 0,
+                    "filename": "templates/views/dashboard.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 129,
+                    "comment": 0,
+                    "filename": "templates/views/form.ejs"
+                },
+                {
+                    "blank": 6,
+                    "code": 645,
+                    "comment": 1,
+                    "filename": "templates/views/homepage.ejs"
+                },
+                {
+                    "blank": 3,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "templates/views/login.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 29,
+                    "comment": 1,
+                    "filename": "templates/views/pay.ejs"
+                },
+                {
+                    "blank": 4,
+                    "code": 274,
+                    "comment": 0,
+                    "filename": "templates/views/payment.ejs"
+                },
+                {
+                    "blank": 22,
+                    "code": 48,
+                    "comment": 1,
+                    "filename": "templates/views/policies.ejs"
+                },
+                {
+                    "blank": 4,
+                    "code": 176,
+                    "comment": 0,
+                    "filename": "templates/views/profile.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 103,
+                    "comment": 0,
+                    "filename": "templates/views/signup.ejs"
+                },
+                {
+                    "blank": 1,
+                    "code": 91,
+                    "comment": 0,
+                    "filename": "templates/views/team.ejs"
+                }
+            ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2021-11-14 23:23:54",
+            "filesum": 55,
+            "codesum": 8652,
+            "commentsum": 290,
+            "blanksum": 324,
+            "statistics": {
+                "": {
+                    "code": 6,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".js": {
+                    "code": 1580,
+                    "comment": 80,
+                    "blank": 144
+                },
+                ".json": {
+                    "code": 2209,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".ejs": {
+                    "code": 2198,
+                    "comment": 10,
+                    "blank": 124
+                },
+                ".svg": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".css": {
+                    "code": 2658,
+                    "comment": 200,
+                    "blank": 56
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": ".env"
+                },
+                {
+                    "blank": 5,
+                    "code": 77,
+                    "comment": 5,
+                    "filename": "app.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "config/filter.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 20,
+                    "comment": 3,
+                    "filename": "config/isAuth.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "config/isDocter.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "config/mongoose.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 2,
+                    "filename": "config/sendMail.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 2,
+                    "filename": "config/sendMailContact.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "models/activities.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "models/queries.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "models/setNames.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "models/sets.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 66,
+                    "comment": 2,
+                    "filename": "models/users.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2176,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 65,
+                    "comment": 4,
+                    "filename": "routers/adminRouter.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 255,
+                    "comment": 11,
+                    "filename": "routers/userRouter.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 968,
+                    "comment": 99,
+                    "filename": "static/css/admin.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 952,
+                    "comment": 30,
+                    "filename": "static/css/dashboard.css"
+                },
+                {
+                    "blank": 16,
+                    "code": 298,
+                    "comment": 10,
+                    "filename": "static/css/form.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "static/css/homepage.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 57,
+                    "comment": 5,
+                    "filename": "static/css/login.css"
+                },
+                {
+                    "blank": 12,
+                    "code": 58,
+                    "comment": 2,
+                    "filename": "static/css/navbar.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "static/css/pay.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 36,
+                    "comment": 2,
+                    "filename": "static/css/profile.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 64,
+                    "comment": 50,
+                    "filename": "static/css/signup.css"
+                },
+                {
+                    "blank": 19,
+                    "code": 206,
+                    "comment": 2,
+                    "filename": "static/css/team.css"
+                },
+                {
+                    "filename": "static/images/Bhavik.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static/images/Dev.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static/images/icon.svg"
+                },
+                {
+                    "blank": 33,
+                    "code": 284,
+                    "comment": 11,
+                    "filename": "static/javascript/admin.js"
+                },
+                {
+                    "blank": 22,
+                    "code": 223,
+                    "comment": 13,
+                    "filename": "static/javascript/dashboard.js"
+                },
+                {
+                    "blank": 32,
+                    "code": 143,
+                    "comment": 21,
+                    "filename": "static/javascript/form.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "static/javascript/homepage.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "static/javascript/login.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "static/javascript/pay.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "static/javascript/profile.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 1,
+                    "filename": "static/javascript/signup.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "static/javascript/team.js"
+                },
+                {
+                    "blank": 27,
+                    "code": 116,
+                    "comment": 5,
+                    "filename": "static/javascript/test.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "static/javascript/utils.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 63,
+                    "comment": 1,
+                    "filename": "templates/partials/footer.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "templates/partials/navbar.ejs"
+                },
+                {
+                    "blank": 9,
+                    "code": 90,
+                    "comment": 0,
+                    "filename": "templates/views/admin.ejs"
+                },
+                {
+                    "blank": 70,
+                    "code": 322,
+                    "comment": 6,
+                    "filename": "templates/views/contact.ejs"
+                },
+                {
+                    "blank": 1,
+                    "code": 168,
+                    "comment": 0,
+                    "filename": "templates/views/dashboard.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 129,
+                    "comment": 0,
+                    "filename": "templates/views/form.ejs"
+                },
+                {
+                    "blank": 6,
+                    "code": 638,
+                    "comment": 1,
+                    "filename": "templates/views/homepage.ejs"
+                },
+                {
+                    "blank": 3,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "templates/views/login.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 29,
+                    "comment": 1,
+                    "filename": "templates/views/pay.ejs"
+                },
+                {
+                    "blank": 4,
+                    "code": 274,
+                    "comment": 0,
+                    "filename": "templates/views/payment.ejs"
+                },
+                {
+                    "blank": 22,
+                    "code": 48,
+                    "comment": 1,
+                    "filename": "templates/views/policies.ejs"
+                },
+                {
+                    "blank": 4,
+                    "code": 176,
+                    "comment": 0,
+                    "filename": "templates/views/profile.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 103,
+                    "comment": 0,
+                    "filename": "templates/views/signup.ejs"
+                },
+                {
+                    "blank": 1,
+                    "code": 91,
+                    "comment": 0,
+                    "filename": "templates/views/team.ejs"
+                }
+            ]
+        }
+    ]
+}

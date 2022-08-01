@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Verdana', sans-serif;
+}
+
+.mynavbar {
+	overflow: hidden;
+	width: 100%;
+	background: black;
+	color: #ecf0f1;
+	padding: 0 40px;
+}
+
+.mynavbar-left {
+	overflow: hidden;
+	float: left;
+}
+
+.mynavbar-right {
+	overflow: hidden;
+	float: right;
+}
+
+.mynavbar-right ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.mynavbar-right ul li {
+	float: left;
+}
+
+.mynavbar-right ul li a {
+	display: inline-block;
+	padding: 35px 30px;
+	color: inherit;
+	text-decoration: none;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	transition: .3s;
+}
+
+.mynavbar-right ul li a:hover {
+	color: #b3b6b7;
+}
+
+/* menu dropdown akan muncul setelah di hover */
+.mynavbar-right ul li:hover ul {
+	display: block;
+}
+
+/* css untuk dropdown */
+.mynavbar-right ul li ul {
+	position: absolute;
+	background: #212f3d;
+	border-top: 1px solid #2c3e50;
+	display: none;
+}
+
+.mynavbar-right ul li ul li {
+	float: none;
+}
+
+.mynavbar-right ul li ul li a {
+	padding: 20px;
+}

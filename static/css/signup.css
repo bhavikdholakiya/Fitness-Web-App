@@ -1,0 +1,115 @@
+/* #email{
+	width: 50%;
+    background-color: #f3f6fd;
+    height: 80px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  #password{
+	width: 50%;
+    background-color: #f3f6fd;
+    height: 80px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  #age{
+    width: 50%;
+    background-color: #f3f6fd;
+    height: 80px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  #yourname{
+    width: 50%;
+    background-color: #f3f6fd;
+    height: 80px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  .login_fields{
+	  align-items: center;
+	  margin-left: 200px;
+  }
+  .login{
+	  align-items: center;
+	  margin-left: 430px;
+  }
+  .login_fields__submit{
+	  display: flex;
+	  justify-content: space-evenly;
+	  margin-left: -490px;
+  }
+  .input_field{
+      display: flex;
+  }
+ */
+
+.mynavbar {
+  margin-bottom: 100px;
+}
+.form-input {
+  width: 100%;
+  background-color: #f3f6fd;
+  height: 80px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: 1px solid #212f3d;
+}
+.login {
+  align-items: center;
+  display: flex;
+  width: 80%;
+  height: 800px;
+  flex-direction: column;
+  margin: auto;
+}
+.login_fields__submit {
+  user-select: auto;
+  width: 100%;
+  height: 200px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-input input {
+  background-color: transparent;
+}
+.input_field {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.gender-select {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.login_fields_submit a {
+  font-size: 1.2em;
+}
+.login_fields {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+}
+#login-text {
+  font-size: 2em;
+}
+footer {
+  background-color: #ebf0fd;
+  /* margin-top: -100px; */
+}
+body {
+  background-color: #ebf0fd;
+}
