@@ -13,12 +13,8 @@
     "url": "git+https://github.com/bhavikdholakiya/Fitness-Web-App.git"
   },
   "keywords": [],
-  "author": "dev",
+  "author": "Bhavik",
   "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
   "dependencies": {
     "@sendgrid/mail": "^7.6.0",
     "cookie-parser": "^1.4.5",
