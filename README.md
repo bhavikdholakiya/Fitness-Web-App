@@ -39,12 +39,6 @@ Youtube Demo Video Link : https://www.youtube.com/watch?v=Xa_h8-Ya16w
 
 
 | API Key Name | Type     | Value                |
-| :-------- | :------- | :------------------------- |
-| `MONGODB` | `DataBase` | 'mongodb+srv://DB:DevBhavik@cluster0.vrzx4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority' |
-|`JWT_SECRET`|`JWT`|DevBhavik|
-|`PUBLISHABLE_KEY`|`PublishableKey`|pk_test_51JaufvSBmiqVOXqUlAPfOEaM11lKTM4fiY8NP0bWvutTsIHgCaGRCxTUhwryhIbTHZ78vHo0Oqecs2HImtKk9jJv00q6J2tDHT|
-|`SECRET_KEY_TEST`|`SecretTestKey`|sk_test_51JaufvSBmiqVOXqUKKtUTsBrVRtEqvaVMpCVI825Rk02gWQ60HyJSHcuDDbFjIoi5WgBQRrN61NbskzPQzscMQb500tEBgzVa4|
-|`SECRET_KEY_LIVE`|`SecretLiveKey`|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|
 
 
 ## Deployment
